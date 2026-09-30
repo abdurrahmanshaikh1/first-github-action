@@ -1,0 +1,14 @@
+name : Abdurrahman shaikh
+
+on:
+
+  push:
+      branches: [main]
+
+      jobs:
+        demo:
+          runs-on: ubanto-latest
+
+          steps:
+              -name: Greetings
+            run: echo "Hello i'm from bhopal"
