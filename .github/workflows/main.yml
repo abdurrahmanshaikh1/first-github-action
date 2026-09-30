@@ -1,14 +1,13 @@
-name : Abdurrahman shaikh
+name: Abdurrahman shaikh
 
 on:
-
   push:
-      branches: [main]
+    branches: [main]
 
-      jobs:
-        demo:
-          runs-on: ubanto-latest
+jobs:
+  demo:
+    runs-on: ubuntu-latest
 
-          steps:
-              -name: Greetings
-            run: echo "Hello i'm from bhopal"
+    steps:
+      - name: Greetings
+        run: echo "Hello i'm from bhopal"
